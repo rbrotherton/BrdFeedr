@@ -1,0 +1,21 @@
+SOURCE:
+
+Two monitors (both at 1980x1050) - Lower right of right monitor.
+javascript:(function(){
+	var h = screen.height / 2;
+	var t = h-108;
+	var w = 440;
+	var l = (screen.width * 2) - (w+15);	
+	window.open('https://vision.cskern.com/simpliflier','Simpliflier','width='+w+',height='+h+',resizable=yes,location=0,menubar=no,status=no,titlebar=no,toolbar=no,left='+l+',top='+t);
+})();
+
+javascript:(function(){
+	var h = screen.height / 2;
+	var t = h-108;
+	var w = 440;
+	var l = (screen.width) - (w+15);	
+	window.open('https://vision.cskern.com/simpliflier','Simpliflier','width='+w+',height='+h+',resizable=yes,location=0,menubar=no,status=no,titlebar=no,toolbar=no,left='+l+',top='+t);
+})();
+
+COMPACTED:
+javascript:(function(){javascript:(function(){var h=screen.height/2;var t=h-108;var w=440;var l=(screen.width*2)-(w+15);window.open('https://vision.cskern.com/simpliflier','Simpliflier','width='+w+',height='+h+',resizable=yes,location=0,menubar=no,status=no,titlebar=no,toolbar=no,left='+l+',top='+t);})();})();
